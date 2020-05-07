@@ -78,7 +78,7 @@ Form Fields
     click element    //button[@class="jss74 jss48 jss59 jss62 jss147"]
 
     #confirm submitting
-    #Click element   //button[@class="jss74 jss48 jss50 jss53 jss152"]
+    Click element   //button[@class="jss74 jss48 jss50 jss53 jss152"]
 
    #confirmation message asserting
    #wait until page contains    تم ارسال طلبك الى المدقق، الطلب قيد المراجعة
