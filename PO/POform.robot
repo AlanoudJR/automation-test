@@ -1,6 +1,6 @@
 
 *** Settings ***
-Library     Selenium2Library
+Library     Selenium2Library    
 
 *** Variables ***
 ${Visits}   1000
@@ -45,6 +45,6 @@ Form Fields
    click element    //button[@class="jss74 jss48 jss59 jss62 jss147"]
 
     #confirm submitting
-    Click element   //button[@class="jss74 jss48 jss50 jss53 jss152"]
+   # Click element   //button[@class="jss74 jss48 jss50 jss53 jss152"]
     wait until page contains    تم ارسال طلبك الى المدقق، الطلب قيد المراجعة
 
