@@ -5,7 +5,7 @@ Resource     ../PO/POlogin.robot
 Resource     ../PO/POformClininNonProfit.robot
 
 *** Variables ***
-${Entity}    //*[@id="32716"]
+${Entity}    //*[@id=""]
 #To change the enitiy replace the number with Seha ID number
 
 

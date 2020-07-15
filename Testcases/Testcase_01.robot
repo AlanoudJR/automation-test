@@ -1,20 +1,22 @@
 *** Settings ***
-Library      Selenium2Library   75   5      run_on_failure=Nothing
+Library      Selenium2Library
 Resource     ../Resources/Resources1.robot
 Resource     ../PO/POlogin.robot
 Resource     ../PO/POformHospitalProfit.robot
 
 *** Variables ***
-${Entity}    //*[@id="32617"]
+${Entity}    //*[@id=""]
 #To change the enitiy replace the number with Seha ID number
 
 
 *** Test Cases ***
-Test1_Profitable_Hospital
 
+Test1_Profitable_Hospital
+       
     Start Browser and Maximize
     Login_Entity
     Selecting_Entity               ${entity}
+    Enter_Verification_Code 
     Navigating_to_MedicalCoding
     Form Fields
     Set Screenshot Directory    path, persist=False

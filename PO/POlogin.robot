@@ -2,9 +2,9 @@
 Library     Selenium2Library
 
 *** Variables ***
-${ID_Entity}    1111111131
-${ID_Superadmin}    1111111119
-${Passowrd}     123456
+${ID_Entity}    removed
+${ID_Superadmin}    removed
+${Passowrd}     removed
 
 *** Keywords ***
 Login_Entity

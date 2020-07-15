@@ -6,9 +6,9 @@ Library     Selenium2Library
 
 ${Visits}   1000
 ${ManagerName}  Alanoud
-${ManagerMobile}  0505444348
+${ManagerMobile}  
 ${ManagerEmail}    alanoud@sa.sa
-
+ßß
 *** Keywords ***
 
 
